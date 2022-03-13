@@ -24,10 +24,10 @@ The analysis of the election shows that:
     - Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
     - Diana DeGette received 73.8% of the vote and 272,892 votes.
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
-- The winner of the election was Diana DeGette.
+- The winner of the election was Diana DeGette who had 73.8% of the votes and 272,892 votes.
 
 ## Challenge Overview
 The challenge used Python and Visual Studio Code to determine the winner of a Colorado election.  We were able to detmine the total votes, the number of votes each candidate received, the percentage of votes each candidate received and the winner of the election.
 
-## Challenge Summary
-The Colorado Board of Elections found that Diana DeGette was the winner of the election! 
+## Election-Audit Summary
+This code can be used for any election because it utilizes loops.  By looping through data we do not need to create new code.  The only modification that I think needs to be made is the variables.  Making sure that the variables align with either the candidate or the county is important so that they do not get messed up. Everything else in the code should be working smoothly.  Obviously changing the path names will need to be modified based on the file you are pulling the data from.  This is easy to do because we created a variable that houses the file path.  By doing that, we only need to edit the file path one time.
