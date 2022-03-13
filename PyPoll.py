@@ -52,6 +52,8 @@ with open(file_path) as election_data:
         # add 1 for every vote that the candidate gets
         candidate_votes[candidate_name] += 1
 
+print(candidate_votes)
+
 # write the code to the txt file
 with open(file_to_save, "w") as txt_file:
 
